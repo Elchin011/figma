@@ -5,8 +5,9 @@
     margin: 0;
 }
 .container{
-    max-width: 1250px;
+    max-width: 1440px;
     margin: 0 auto;
+    padding: 0 95px;
 }
 body {
     font-family: "Plus Jakarta Sans";
@@ -16,12 +17,18 @@ body {
 
 /* -----------nav---------------- */
 
-
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: #EFF0F3;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 .head {
     height: 86px;
     display: flex;
     align-items: center;
     justify-content: space-between;  
+    
       
 }
 
@@ -145,7 +152,7 @@ body {
     gap: 37px;
 }
 .browse .card , .browse .card-1, .browse .card-2{
-    width: 220px;
+    width: 19%;
     height: 280px;
     border: 1px solid black;
     border: none;
