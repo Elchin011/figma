@@ -22,6 +22,7 @@ nav{
     width: 100%;
     background-color: #EFF0F3;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    z-index: 999999;
 }
 .head {
     height: 86px;
